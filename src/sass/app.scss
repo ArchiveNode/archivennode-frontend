@@ -94,6 +94,10 @@ body {
     min-height: 70vh;
     width: 80%;
 
+    @media only screen and (max-width: 900px) {
+        width: 100%;
+    }
+
     p {
         margin: 0 0 3em 0;
         font-size: 125%;
@@ -112,6 +116,12 @@ body {
         background: $COLOR-BUTTON-BG;
         color: $COLOR-TEXT;
         text-decoration: none;
+
+        @media only screen and (max-width: 900px) {
+            width: 100%;
+            display: grid;
+            place-items: center;
+        }
     }
 }
 
