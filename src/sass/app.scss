@@ -130,9 +130,9 @@ body {
     padding: 2em 0 0 0;
 
     margin-top: 2em;
-
+    br { display: none }
     @media only screen and (max-width: 900px) {
-        display: block;
+        br { display: inline }
     }
 
     p {
