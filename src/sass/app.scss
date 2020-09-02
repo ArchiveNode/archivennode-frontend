@@ -133,6 +133,8 @@ body {
     br { display: none }
     @media only screen and (max-width: 900px) {
         br { display: inline }
+        width: 100% !important;
+        place-items: center !important;
     }
 
     p {
