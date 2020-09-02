@@ -132,7 +132,8 @@ body {
     margin-top: 2em;
 
     @media only screen and (max-width: 900px) {
-        place-items: center;
+        place-items: center !important;
+        margin-bottom: 5px !important;
     }
 
     p {
